@@ -4,9 +4,9 @@ import { Button } from './Button';
 import { GenreResponseProps } from '../App';
 
 interface ISideBarProps {
-  genres: GenreResponseProps[];
-  selectedGenreId: number;
-  handleClickButton: (id: number) => void;
+  genres: GenreResponseProps[]
+  selectedGenreId: number
+  handleClickButton: (id: number) => void
 }
 
 export function SideBar({ genres, selectedGenreId, handleClickButton } : ISideBarProps) {
